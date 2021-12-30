@@ -1,0 +1,39 @@
+name: super_flutter_maker
+description: A game about making Flutter Apps, à la Super Mario Maker.
+version: 0.1.0
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_swiper: 1.1.6
+  fluro: ^1.5.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.2
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/widgets/text.png
+    - assets/images/widgets/center.png
+    - assets/images/widgets/row.png
+    - assets/images/widgets/column.png
+    - assets/images/widgets/raised_button.png
+    - assets/images/widgets/stack.png
+    - assets/images/widgets/positioned.png
+    - assets/images/widgets/expanded.png
+    - assets/images/widgets/container.png
+    - assets/images/icons/dash-baby.png
+    - assets/images/icons/dash.png
+    - assets/images/icons/dash-expert.png
